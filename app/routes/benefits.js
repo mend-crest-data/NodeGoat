@@ -25,6 +25,7 @@ function BenefitsHandler(db) {
             });
         });
     };
+    
 
     this.updateBenefits = (req, res, next) => {
         const {
